@@ -1,0 +1,38 @@
+#shutdown wsl2
+alias adios="wsl.exe --shutdown"
+
+#List directories
+alias l1='ls -1 -F'
+alias l='ls -C -F
+# Show hidden.
+alias la='ls -A'
+# With types.
+alias la1='ls -A -F -1'
+
+alias ll='ls -l -h'
+alias lal='ls -l -h -A -F'
+
+# Newest first and show ISO date and time.
+alias lt='ls -t --full-time'
+
+alias s="sudo"
+alias upgrade='sudo apt-get update && sudo apt-get upgrade'
+
+
+# Zip
+alias tarz='tar czvf'
+# Unzip
+alias taru='tar xzvf'
+
+alias add="sudo apt install"
+alias adds="sudo apt search"
+alias addr="sudo apt purge"
+
+# github
+
+alias clone="git clone"
+alias ga="git add"
+alias gc="git commit -m"
+alias gr="git remote add origin"
+alias gp="git push -u origin main"
+alias gu="git pull"
